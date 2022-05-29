@@ -1,0 +1,47 @@
+.previousevents-wrapper {
+	font-family: Poppins-Regular;
+	color: #272834;
+	display: flex;
+	flex-direction: column;
+	padding: 3vh 6vw;
+}
+
+.previousevents-header {
+	font-family: Poppins-SemiBold;
+	font-size: x-large;
+	margin-bottom: 1.3vw;
+	margin-top: 10vh;
+}
+
+.previousevents-cards-wrapper {
+	margin-bottom: 2vh;
+}
+
+.previousevents-pagination {
+	align-self: center;
+	margin-bottom: 4vh;
+}
+
+.upcoming-events {
+	display: flex;
+	justify-content: center;
+}
+
+.upcoming-events-button {
+	font-family: Poppins !important;
+	border: 2px solid #444bab !important;
+	font-weight: bold !important;
+	text-transform: capitalize !important;
+	border-color: #444bab !important;
+	color: #444bab !important;
+}
+
+@media (max-width: 660px) {
+	.previousevents-header {
+		font-size: 6vw;
+	}
+
+	.upcoming-events-button {
+		font-size: 4vw !important;
+	}
+}

@@ -1,0 +1,51 @@
+.poster-main {
+	margin-top: 10vh;
+	height: 40vw;
+	width: 100vw;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	cursor: pointer;
+}
+
+.poster-footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	pointer-events: none;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 2vw;
+	background-color: rgba(0, 0, 0, 0.31);
+	column-gap: 2vw;
+	font-family: Orienta;
+}
+
+.poster-countdown {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	margin: 1vw !important;
+}
+
+.time_scale {
+	font-size: 1vw;
+}
+
+.poster-event-time-stamp {
+	display: flex;
+}
+.clock-double-dots {
+	margin-top: 1vw;
+}
+
+@media (max-width: 660px) {
+	.poster-main {
+		height: 40vw;
+	}
+}

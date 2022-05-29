@@ -1,0 +1,73 @@
+.aboutevent-wrapper {
+	font-family: Poppins-Regular;
+	color: #272834;
+	display: flex;
+	flex-direction: column;
+	padding: 5vh 6vw;
+}
+
+.aboutevent-header {
+	font-family: Poppins-SemiBold;
+	font-size: 2.5vw;
+}
+
+.aboutevent-wrapper > p {
+	color: #505050;
+	text-align: justify;
+	font-size: 1.4vw;
+	margin: 1vh 0;
+}
+
+.aboutevent-wrapper .infobox {
+	margin: 1vh 0;
+}
+
+.aboutevent-info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: safe;
+	margin: 2vh 0;
+}
+
+.aboutevent-info > * {
+	margin-right: 2vw;
+}
+
+.aboutevent-register {
+	display: flex;
+	flex-direction: row;
+}
+
+.aboutevent-regbutton {
+	background: linear-gradient(93.44deg, #444bab -6.8%, #3ca5c2 186.94%) !important;
+	font-family: Poppins-Semibold !important;
+	font-weight: bold !important;
+	font-size: 1.3vw !important;
+	text-transform: capitalize !important;
+	margin-right: 2vw !important;
+	padding: 0.5vw 1.5vw !important;
+}
+
+@media (max-width: 660px) {
+	.aboutevent-header {
+		font-size: 6vw;
+	}
+
+	.aboutevent-wrapper > p {
+		font-size: 3.7vw;
+	}
+
+	.aboutevent-info {
+		flex-direction: column;
+	}
+
+	.aboutevent-regbutton {
+		margin-right: 5vw !important;
+		height: 10vw;
+		width: 30vw;
+		font-size: 3.1vw !important;
+		padding: 1.5vw 5vw !important;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+}

@@ -1,0 +1,184 @@
+.modal-event-card-box {
+	font-family: Poppins-Regular;
+	display: flex;
+	margin: 0.6vw 3.5vw 0 3.5vw;
+
+	min-height: 13vw;
+	background: linear-gradient(white, white) padding-box, linear-gradient(to right, #3e8ebc, #444bab);
+
+	border: 1px solid transparent;
+	border-radius: 12px 12px 12px 12px;
+	overflow: hidden;
+}
+.modal-event_image_regular_window {
+	cursor: pointer;
+	width: 26vw;
+	height: auto;
+}
+
+.modal-card-info {
+	display: flex;
+	width: 45vw;
+	flex-direction: column;
+	margin-left: 1vw;
+}
+.modal-EventTitle {
+	font-family: Poppins-SemiBold;
+	color: #272834;
+	display: flex;
+	width: 25vw;
+	min-height: 2vw;
+	font-weight: bold;
+	font-size: 1.43vw;
+	line-height: 2vw;
+	cursor: pointer;
+	padding-right: 0.4vw;
+	padding-top: 0.3vw;
+}
+
+.modal-EventDescription {
+	font-size: 1vw;
+	color: #505050;
+	width: 25vw;
+	height: 2vw;
+	padding-right: 1.5vw;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-top: 0.5vw;
+}
+
+.modal-time-date {
+	display: flex;
+	margin-top: 0.2vw;
+}
+
+.modal-icon-info {
+	display: flex;
+	align-items: center;
+	margin-right: 3vw;
+}
+.modal-icon-info > p {
+	font-size: 1vw;
+	margin: 0 0 0 0.4vw;
+	color: black;
+}
+
+.modal-card-footer {
+	display: flex;
+	align-items: center;
+	margin: 1vw 0 1vw 0;
+}
+.modal-card-footer > p {
+	margin: 0 0 0 2vw;
+}
+
+.modal-mui-button {
+	background: linear-gradient(93.44deg, #444bab -6.8%, #3ca5c2 186.94%) !important;
+	font-weight: bold !important;
+	font-family: Poppins-Semibold !important;
+	text-transform: capitalize !important;
+	font-size: 0.8vw !important;
+	padding: 0.5vw 1vw !important;
+}
+
+.modal-share-event-modal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.modal-icon-info > img {
+	height: 1.2vw;
+	width: 1.2vw;
+}
+
+@media (max-width: 660px) {
+	.modal-event-card-box {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		min-height: auto;
+		background: linear-gradient(white, white) padding-box, linear-gradient(to right, #3e8ebc, #444bab);
+
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		border-bottom: 1px solid transparent;
+		border-radius: 12px 12px 0px 0px;
+		overflow: hidden;
+	}
+
+	.modal-event_image_regular_window {
+		cursor: pointer;
+		width: 78vw;
+		height: auto;
+		margin: 0 0 0 -1vw;
+	}
+
+	.modal-card-info {
+		display: flex;
+		width: 70vw;
+		min-height: auto;
+		flex-direction: column;
+		padding-left: 1vw;
+		padding-top: 1vw;
+	}
+
+	.modal-EventTitle {
+		font-family: Poppins-SemiBold;
+		display: flex;
+		width: 70vw;
+		min-height: auto;
+		font-weight: bold;
+		font-size: 3.3vw;
+		line-height: 5vw;
+		margin-top: 0.5vw;
+	}
+
+	.modal-EventDescription {
+		font-family: Poppins;
+		min-height: 5vw;
+		font-size: 2.5vw;
+		color: #505050;
+		margin-top: 0.8vw;
+		width: 72vw;
+	}
+
+	.modal-time-date {
+		display: flex;
+		height: 6vw;
+	}
+
+	.modal-icon-info {
+		display: flex;
+		align-items: center;
+		margin-right: 7vw;
+		height: 6vw;
+	}
+	.modal-icon-info > p {
+		font-size: 2.5vw;
+		margin: 0 0 0 1vw;
+		color: black;
+	}
+	.modal-icon-info > img {
+		height: 3vw;
+		width: 3vw;
+	}
+
+	.modal-card-footer {
+		display: flex;
+		min-height: 10vw;
+		margin-top: 0;
+	}
+	.modal-card-footer > button {
+		margin-right: 2vw;
+	}
+
+	.modal-mui-button {
+		background: linear-gradient(93.44deg, #444bab -6.8%, #3ca5c2 186.94%) !important;
+		font-weight: bold !important;
+		font-size: 2vw !important;
+		min-height: 2vh !important;
+		padding: 1vw 2vw !important;
+	}
+}

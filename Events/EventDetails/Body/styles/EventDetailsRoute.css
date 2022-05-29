@@ -1,0 +1,33 @@
+.spinner {
+	width: 100vw;
+	height: 40vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.infobox {
+	font-family: Poppins;
+	margin: 1.5vh 0;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.infobox > img {
+	margin-right: 0.5vw;
+}
+
+.infobox > div {
+	font-size: 1.3vw;
+}
+
+@media (max-width: 660px) {
+	.infobox > div {
+		font-size: 3vw;
+	}
+
+	.infobox > img {
+		margin-right: 2vw;
+	}
+}

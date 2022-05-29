@@ -1,0 +1,151 @@
+.eventcard-wrapper {
+	font-family: Poppins-Regular;
+	color: #272834;
+	box-shadow: 0px 0.5px 4px rgba(0, 0, 0, 0.25);
+	display: flex;
+	margin: 2vh 0;
+	box-sizing: border-box;
+	border-radius: 12px;
+	border: 1px solid #444bab;
+	margin-bottom: 2vw;
+	justify-content: space-between;
+	width: 100%;
+	position: relative;
+}
+
+.eventcard-image-wrapper {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	cursor: pointer;
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	border-radius: 12px 0 0 12px;
+}
+
+.eventcard-info-wrapper {
+	width: 60%;
+	box-sizing: border-box;
+	padding: 1vw 2vw;
+}
+
+.eventcard-info {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.eventcard-header {
+	width: 95%;
+	font-family: Poppins-SemiBold;
+	font-size: 1.7vw;
+	margin-bottom: 1vh;
+}
+
+.eventcard-description {
+	text-align: justify;
+	color: #505050;
+	font-size: 1.4vw;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-bottom: 1vh;
+}
+
+.eventcard-datetime {
+	display: flex;
+	margin-bottom: 1vh;
+}
+.eventcard-datetime > div {
+	margin-right: 3vw;
+}
+
+.eventcard-reg-wrapper {
+	display: flex;
+	align-items: center;
+	max-height: 4vw;
+}
+
+.prev-datetime {
+	margin-bottom: -0.5vh !important;
+}
+
+.eventcard-regbutton {
+	background: linear-gradient(93.44deg, #444bab -6.8%, #3ca5c2 186.94%) !important;
+	font-family: Poppins-Semibold !important;
+	font-weight: bold !important;
+	font-size: 1.3vw !important;
+	text-transform: capitalize !important;
+	margin-right: 2vw !important;
+}
+
+.eventcard-shareicon {
+	background-color: #fff;
+	border-radius: 50%;
+	cursor: pointer;
+	padding: 0.5vw;
+	box-shadow: 0px 0.25px 4px rgba(0, 0, 0, 0.25);
+
+	width: 1.5vw;
+	height: 1.5vw;
+	max-width: 30px;
+	max-height: 30px;
+
+	position: absolute;
+	top: 1vw;
+	right: 1vw;
+}
+
+.share-event-modal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 660px) {
+	.eventcard-wrapper {
+		flex-direction: column;
+	}
+	.eventcard-image-wrapper {
+		border-radius: 12px 12px 0 0;
+		width: 100%;
+		height: 40vw;
+	}
+	.eventcard-info-wrapper {
+		width: 100%;
+		padding: 3vw 2vw;
+	}
+	.eventcard-header {
+		width: 100%;
+		font-size: 4vw;
+		margin-bottom: 1vh;
+	}
+	.eventcard-description {
+		width: 100%;
+		font-size: 3vw;
+	}
+	.eventcard-datetime > div {
+		margin-right: 5vw;
+	}
+	.eventcard-reg-wrapper {
+		max-height: 10vw;
+	}
+	.eventcard-regbutton {
+		font-size: 3vw !important;
+		margin-right: 5vw !important;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	.eventcard-shareicon {
+		padding: 1vw;
+		width: 5vw;
+		height: 5vw;
+		top: 2vw;
+		right: 2vw;
+	}
+}

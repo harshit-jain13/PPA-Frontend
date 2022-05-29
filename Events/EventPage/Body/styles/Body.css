@@ -1,0 +1,62 @@
+.landing-page-wrapper {
+	overflow: hidden;
+}
+
+.eventpage-wrapper {
+	font-family: Poppins-Regular;
+	color: #272834;
+	display: flex;
+	flex-direction: column;
+	padding: 5vh 6vw;
+}
+
+.eventpage-header {
+	font-family: Poppins-SemiBold;
+	font-size: 2vw;
+	margin-bottom: 2vh;
+}
+
+.eventpage-cards-wrapper {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 3vh;
+}
+
+.eventpage-pagination {
+	align-self: center;
+	margin-bottom: 4vh;
+}
+
+.previous-events {
+	display: flex;
+	justify-content: center;
+}
+.css-yx0nvq-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected:hover {
+	background-color: #d2d4ee !important;
+}
+
+.previous-events-button {
+	font-family: Poppins !important;
+	font-style: normal !important;
+	border: 2px solid #444bab !important;
+	font-weight: 600 !important;
+	text-transform: capitalize !important;
+	border-color: #444bab !important;
+	color: #444bab !important;
+}
+
+@media (max-width: 660px) {
+	.eventpage-header {
+		font-size: 6vw;
+	}
+
+	.previous-events {
+		font-size: 4vw !important;
+	}
+	.eventpage-wrapper {
+		padding: 3vh 6vw;
+	}
+	.css-w05zow-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected:hover {
+		background-color: #d2d4ee !important;
+	}
+}
